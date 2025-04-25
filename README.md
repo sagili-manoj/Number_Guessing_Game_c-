@@ -31,7 +31,7 @@ To run the Number Guessing Game, follow these steps:
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone github.com/sagili-manoj/Number_Guessing_Game_c-
+   git clone https://github.com/sagili-manoj/Number_Guessing_Game_c-
    g++ -o Game Game.cpp
    ./Game
 
