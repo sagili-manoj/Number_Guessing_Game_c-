@@ -35,7 +35,7 @@ int main() {
             cout<<"Great You have selected Hard difficult level.";
         }
         else{
-            cout<<"You have selected a different option By default we     provide Easy difficult level.";
+            cout<<"You have selected a different option By default we provide Easy difficult level.";
             chances=10;
         }
         cout<<endl;
@@ -48,9 +48,9 @@ int main() {
             cin>>value;
             chances--;
             if(value==randomNumber){
-                cout<<"Congratulations You have Guessed the correct     number in "<<n<<" attempts"<<endl;
+                cout<<"🎊Congratulations You have Guessed the correct number in "<<n<<" attempts🎊"<<endl;
                 cout<<"Do you want to play Again"<<endl;
-                cout<<"Enter Y/y to play Again or any other to exit:"    ;
+                cout<<"Enter Y/y to play Again or any other to exit:" ;
                 cin>>again;
                 if(again!='Y' || again!='y'){
                     flag=false;
